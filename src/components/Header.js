@@ -8,7 +8,7 @@ export const Header = () => {
       <div className="flex-none">
         <img src={backImage} className="h-6" />
       </div>
-      <div className="flex-1 text-left font-normal text-2xl leading-6 pl-4 text-white">
+      <div className="text-left font-normal text-2xl leading-6 pl-4 pr-2 text-white">
         Romantic Comedy
       </div>
       <div className="flex-auto">
