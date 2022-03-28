@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ott-movies-app/static/css/main.76f5d569.css",
+    "main.js": "/ott-movies-app/static/js/main.6aeb3fb2.js",
+    "index.html": "/ott-movies-app/index.html",
+    "main.76f5d569.css.map": "/ott-movies-app/static/css/main.76f5d569.css.map",
+    "main.6aeb3fb2.js.map": "/ott-movies-app/static/js/main.6aeb3fb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76f5d569.css",
+    "static/js/main.6aeb3fb2.js"
+  ]
+}
