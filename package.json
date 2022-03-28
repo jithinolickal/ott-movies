@@ -2,7 +2,7 @@
   "name": "ott-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jithinolickal.github.io/ott-movies-app",
+  "homepage": "https://jithinolickal.github.io/ott-movies",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.0",
     "@testing-library/jest-dom": "^4.2.4",
