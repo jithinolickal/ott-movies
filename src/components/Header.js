@@ -11,7 +11,7 @@ export const Header = () => {
       <div className="flex-1 text-left font-normal text-2xl leading-6 pl-4 text-white">
         Romantic Comedy
       </div>
-      <div className="flex-1">
+      <div className="flex-auto">
         <SearchInput />
       </div>
     </div>
