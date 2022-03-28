@@ -1,0 +1,27 @@
+name: Deploy to GitHub Pages
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch: # To trigger workflow manually
+jobs:
+  build-and-deploy-my-app:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+
+    - name: Use Node.js '12.x'
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - run: npm install
+    - run: CI=false npm run build
+    - name: Build and Deploy app
+      uses: JamesIves/github-pages-deploy-action@v4.2.5
+      with:
+        GITHUB_TOKEN: ${{ secrets.deploy_secret }}
+        BRANCH: gh-pages
+        FOLDER: build
