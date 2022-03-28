@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ott-movies/static/css/main.c8b80590.css",
-    "main.js": "/ott-movies/static/js/main.94d3eab7.js",
+    "main.css": "/ott-movies/static/css/main.bb424932.css",
+    "main.js": "/ott-movies/static/js/main.cd06f222.js",
     "index.html": "/ott-movies/index.html",
-    "main.c8b80590.css.map": "/ott-movies/static/css/main.c8b80590.css.map",
-    "main.94d3eab7.js.map": "/ott-movies/static/js/main.94d3eab7.js.map"
+    "main.bb424932.css.map": "/ott-movies/static/css/main.bb424932.css.map",
+    "main.cd06f222.js.map": "/ott-movies/static/js/main.cd06f222.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8b80590.css",
-    "static/js/main.94d3eab7.js"
+    "static/css/main.bb424932.css",
+    "static/js/main.cd06f222.js"
   ]
 }
